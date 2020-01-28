@@ -11,7 +11,7 @@ $('#target').wrap('<span />');
 
 VanillaJS:
 ```js
-const target = document.getElementById("target");
+const target = document.querySelector("#target");
 const wrapper = document.createElement("span");
 
 target.parentNode.insertBefore(wrapper, target);

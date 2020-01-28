@@ -4,6 +4,7 @@ module.exports = {
       '/',
       ['/on', 'on()'],
       ['/wrap', 'wrap()'],
+      ['/remove', 'remove()'],
     ]
   }
 }
