@@ -32,9 +32,8 @@ $(document).on('click', '.js-button', e => {
 VanillaJS:
 ```js
 document.addEventListener('click', e => {
-  if (!e.target || !e.target.classList.contains('js-button')) {
-    return;
+  if (e.target && e.target.classList.contains('js-button')) {
+    // 処理
   }
-  // 処理
 });
 ```
